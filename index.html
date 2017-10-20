@@ -8,76 +8,92 @@
 		<link rel="stylesheet" type="text/css" href="grid.css"> 
 		<link href="sidebar.css" rel="stylesheet">
 		<link href="dashboard.css" rel="stylesheet">
+		<link href="typografy.css" rel="stylesheet">
+
+		<!-- font family -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
 	</head>
 	<body> 
 		<div class="container-fluid">
   			<div class="row">
 				<nav class="col-sm-3 col-md-2 d-none d-sm-block sidebar" >
-		          <ul class="nav nav-pills flex-column">
-		            <li class="nav-item">
-		              <a class="nav-link active" href="#">Overview <span class="sr-only">(current)</span></a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Reports</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Analytics</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Export</a>
-		            </li>
-		          </ul>
+					<div class="logo"> 
+						<img src="ufrn-logo.png"> 
+					</div>
+					<hr>
+			          <ul class="nav nav-pills flex-column">
+			            <li class="nav-item">
+			              <a class="nav-link active" href="#">INSTITUCIONAL <span class="sr-only">(current)</span></a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link" href="#">ACADÊMICO</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link" href="#">SERVIÇOS</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link" href="#">CONTATO</a>
+			            </li>
+			          </ul>
 
-		          <ul class="nav nav-pills flex-column">
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Nav item</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Nav item again</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">One more nav</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Another nav item</a>
-		            </li>
-		          </ul>
-
-		          <ul class="nav nav-pills flex-column">
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Nav item again</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">One more nav</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Another nav item</a>
-		            </li>
-		          </ul>
-		        </nav>
+			          <hr>
+			          <ul class="nav nav-pills flex-column">
+			            <li class="nav-item">
+			              <a class="nav-link" href="#">ALUNOS</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link" href="#">DOCENTES</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link" href="#">TÉCNICOS ADM</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link" href="#">PÚBLICO EXTERNO</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link" href="#">LINKS RÁPIDOS</a>
+			            </li>
+			          </ul> 
+			        </nav>
 
 				<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3"> 
 
-		    		<h1>Acessibilidade - Test</h1>
-				  	<p>O exemplo de página HTML abaixo cria um player incorporado que carregará um vídeo, irá reproduzi-lo por seis segundos e, em seguida, interromperá a reprodução. Os comentários numerados no HTML são explicados na lista abaixo do exemplo.</p>
+				    <div id="player"></div> 
 
-				    <div id="player"></div>
-
-		          <h2>Section title</h2> 
-		         
-					<div id="video_popup" class="hide_pop">
+				    <div id="video_popup" class="hide_pop">
 					    <div class="video_layover"> 
 					        <div class="link"><a href="javascript: chapter1();">Início</a></div>
 					    </div>
 					</div>  
 
-
-				    <ul class="player">
+ 					<ul class="player">
 				        <a href="javascript: chapter1();"><li>Pular abertura</li></a>
 						<a href="javascript: chapter2();"><li>Estrutura Acadêmica</li></a>
 						<a href="javascript: chapter3();"><li>Estrutura Física</li></a>
 				    </ul> 
 
+				    <div class="content">
+		    		<h1>Sobre a UFRN</h1>  
+
+				  
+				    <p>A Universidade Federal do Rio Grande do Norte origina-se da Universidade do Rio Grande do Norte, criada em 25 de junho de 1958, através de lei estadual, e federalizada em 18 de dezembro de 1960. A Universidade do Rio Grande do Norte, instalada em sessão solene realizada no Teatro Alberto Maranhão, em 21 de março de 1959, foi formada a partir de faculdades e escolas de nível superior já existentes em Natal, como a Faculdade de Farmácia e Odontologia; a Faculdade de Direito; a Faculdade de Medicina; a Escola de Engenharia, entre outras.</p>
+
+					<p>A partir de 1968, com a reforma universitária, a UFRN passou por um processo de reorganização que marcou o fim das faculdades e a consolidação da atual estrutura, ou seja, o agrupamento de diversos departamentos que, dependendo da natureza dos cursos e disciplinas, organizaram-se em Centros Acadêmicos.</p>
+
+					<p>Nos anos 70, teve início a construção do Campus Central, numa área de 123 hectares. O campus abriga atualmente um arrojado complexo arquitetônico, circundado por um anel viário que o integra à malha urbana da cidade de Natal.</p>
+
+					<p>A estrutura da UFRN foi modificada, novamente, por meio de um Decreto de 1974 (N° 74.211), constituindo-se, também, a partir de então do Conselho Universitário(CONSUNI), Conselho de Ensino, Pesquisa e Extensão (CONSEPE), Conselho de Curadores (CONCURA) e Reitoria.</p>
+
+					<p>Uma reforma do Estatuto da UFRN, concluída em 1996, estabeleceu a estrutura em vigor hoje na Universidade, acrescentando-se aos conselhos existentes o Conselho de Administração (CONSAD) e criando, na estrutura acadêmica, as Unidades Acadêmicas Especializadas e os Núcleos de Estudos Interdisciplinares.</p>
+
+					<p>Além dos diversos setores de aulas, laboratórios e bibliotecas, o Campus Central possui um Centro de Convivência com restaurante, agências bancárias, livrarias, galeria de arte e agência dos correios. No prédio da Reitoria funcionam o Gabinete do Reitor, as Pró-Reitorias e todos os setores da Administração Central.</p>
+
+					<p>Os grandes eventos da UFRN geralmente acontecem na Praça Cívica, projetada na forma de um grande anfiteatro ao ar livre, onde também acontecem grandes espetáculos. Para eventos e práticas esportivas, o campus conta com um Parque Poliesportivo, com ginásio olímpico, campo de futebol, pista de atletismo e piscinas olímpicas.</p>
+
+					<p>Atualmente, a UFRN oferece, entre cursos de graduação e pós-graduação, mais de 200 oportunidades de capacitação. Sua comunidade acadêmica é formada por mais de 37.000 estudantes (graduação e pós-graduação) e cerca de 5.500, entre servidores técnico-administrativos e servidores docentes efetivos, além dos professores substitutos e visitantes.</p>
+					</div>
 				</main>
 			</div>
 		</div>
@@ -92,7 +108,8 @@
 		  	var player;
 		  	function onYouTubeIframeAPIReady() {
 		    	player = new YT.Player('player', {
-		      		width: '625',
+		      		width: '100%',
+		      		height: '50%',
 		      		videoId: 'iwhQn4SYJ5Y',
 		      		events: {
 		        		'onStateChange': onPlayerStateChange    

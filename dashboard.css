@@ -3,35 +3,21 @@
  */
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
-body {
-  /*padding-top: 3.5rem;*/
-}
-
-/*
- * Typography
- */
-
-h1 {
-  padding-bottom: 9px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
 
 /*
  * Sidebar
  */
 
 .sidebar {
-  position: fixed;
-  top: 90px;
+  position: fixed; 
   bottom: 0;
   left: 0;
   z-index: 1000;
-  padding: 20px 0;
+  padding: 0 0 0 0;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
   border-right: 1px solid #eee; 
-  background-color: rgba(12, 58, 96, 1);
+  background-color: #063E5F;
 }
 
 .sidebar .nav {
@@ -48,9 +34,26 @@ h1 {
 }
 
 .sidebar .nav-link {
-  border-radius: 0;
+  border-radius: 0; 
+  color: white; 
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
 
-  color: white;
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 255), rgba(0, 0, 0, 0));
+}
+
+.logo {
+  padding: 20%;  
+}
+
+.logo img {
+  width: 100%; 
 }
 
 /*
@@ -65,5 +68,5 @@ h1 {
 .placeholder img {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
+} 
 

@@ -1,0 +1,27 @@
+/*
+ * Typography
+ */
+
+h1 {
+  	padding-bottom: 9px;
+  	margin-bottom: 20px;
+  	border-bottom: 1px solid #eee;
+  	font-size: 45px;
+	color: #063E5F;
+	line-height: 1.2;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body p {
+  /*padding-top: 3.5rem;*/
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: #4e4e4e;
+}
