@@ -21,10 +21,15 @@ h3 {
 
 hr {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; 
 }
 
 .content {
-  margin-left: 15%;
+  margin-top: 30%;
+  margin-left: 10%;
   margin-right: 15%;
+}
+
+.header { 
+    position: absolute;  
 }
