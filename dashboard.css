@@ -34,11 +34,15 @@
 
 .sidebar .nav-link {
   border-radius: 0; 
-  color: white; 
-  font-size: 15px;
+  color: #fff; 
+  font-size: 18px;
   line-height: 26px;
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #84ADC9;
 }
 
 hr {
